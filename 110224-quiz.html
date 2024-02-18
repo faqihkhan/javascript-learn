@@ -1,0 +1,87 @@
+<script>
+  const sekolah = [
+    {
+      kelas: "1a",
+      siswa: [
+        {
+          nama: "Haidar",
+          umur: 13,
+          kota: "Bekasi",
+        },
+        {
+          nama: "Haidar",
+          umur: 12,
+          kota: "Salatiga",
+        },
+        {
+          nama: "Alghi",
+          umur: 14,
+          kota: "Surabaya",
+        },
+      ],
+    },
+    {
+      kelas: "1b",
+      siswa: [
+        {
+          nama: "Avi",
+          umur: 15,
+          kota: "Majalengka",
+        },
+        {
+          nama: "Musa",
+          umur: 14,
+          kota: "Sidoarjo",
+        },
+        {
+          nama: "Fajri",
+          umur: 15,
+          kota: "Jombang",
+        },
+      ],
+    },
+    {
+      kelas: "2a",
+      siswa: [
+        {
+          nama: "Haidar",
+          umur: 17,
+          kota: "Jogja",
+        },
+        {
+          nama: "Musa",
+          umur: 18,
+          kota: "Solo",
+        },
+        {
+          nama: "Bari",
+          umur: 19,
+          kota: "Semarang",
+        },
+      ],
+    },
+  ];
+
+  for (const data of sekolah) {
+    for (const data2 of data.siswa) {
+      
+      if (data2.nama === "Haidar") {
+        console.log(data2.nama)
+      } else {
+        console.log("tidak ada anak yang bernama Haidar");
+      }
+    }
+    // console.log(data.siswa)
+  }
+
+
+    
+    
+    
+    // PR: TAMPILKAN DATA YANG KOTA JOGJA DAN SOLO SAJA
+
+    // PR: TAMPILKAN NAMA HAIDAR PADA 1B "TIDAK ADA ANAK YANG BERNAMA HAIDAR"
+
+    
+  
+</script>
